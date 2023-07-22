@@ -8,6 +8,7 @@ BEGIN \
 /ownerFullName/ \
 {
     gsub(/\\"/, "'")
+    OWNER = $4
     print $4
 }
 
