@@ -9,7 +9,7 @@ BEGIN \
 {
     print NF
     print
-    gsub(/\"/, "'")
+    gsub(/\\"/, "'")
     print
 }
 
