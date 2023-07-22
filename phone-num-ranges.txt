@@ -1,18 +1,24 @@
 7
     "ownerFullName": "UAB \"Tele2\"",
+5
     "range": "60504685 - 60504692",
 7
     "ownerFullName": "UAB \"Bitė Lietuva\"",
+5
     "range": "60504693 - 60504693",
 7
     "ownerFullName": "UAB \"Tele2\"",
+5
     "range": "60504694 - 60504694",
 7
     "ownerFullName": "UAB \"Bitė Lietuva\"",
+5
     "range": "60504695 - 60504695",
 7
     "ownerFullName": "UAB \"Tele2\"",
+5
     "range": "60504696 - 60504720",
 7
     "ownerFullName": "UAB \"Tele2\"",
+5
     "range": "60506391 - 60506441",
