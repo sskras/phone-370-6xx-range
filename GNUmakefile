@@ -3,4 +3,4 @@ all:
 	@git diff .
 	@git commit -m 'phone-num-ranges.txt: Format update' phone-num-ranges.txt
 telia:
-	@cat phone-num-ranges.txt | awk '/Telia/'
+	@cat phone-num-ranges.txt | awk '/Telia/ { $2=$3=""; print }'
