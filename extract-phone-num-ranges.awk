@@ -11,7 +11,7 @@ BEGIN \
     print
 }
 
-/range/
+/range/ \
 {
     print NF
     print
