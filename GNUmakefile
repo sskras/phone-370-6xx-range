@@ -4,4 +4,4 @@ all:
 	@git commit -m 'phone-num-ranges.txt: Format update' phone-num-ranges.txt
 
 telia:
-	@cat phone-num-ranges.txt | awk '/Telia/ { $$2=$$3=""; print }'
+	@cat phone-num-ranges.txt | awk '/Telia/ { print $$1 }'
