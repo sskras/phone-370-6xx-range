@@ -9,6 +9,8 @@ BEGIN \
 {
     print NF
     print
+    gsub("\\\"", "'")
+    print
 }
 
 /range/ \
