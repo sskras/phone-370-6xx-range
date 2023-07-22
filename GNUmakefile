@@ -3,6 +3,10 @@ all:
 	@git diff .
 	@git commit -m 'phone-num-ranges.txt: Format update' phone-num-ranges.txt
 
+list:
+	@echo
+	@cat phone-num-ranges.txt | awk '$$1 == $$3 { gsub(/./, " ", $$2); gsub(/./, " ", $$3); print; next } { print }'
+
 telia:
 	@echo
 	@cat phone-num-ranges.txt | awk '/Telia/ { print $$1 }'
