@@ -1,5 +1,21 @@
 {
     "id": 0,
+    "numberFrom": 60504644,
+    "numberTo": 60504644,
+    "status": "Užimtas",
+    "ownerFullName": "UAB \"Teledema\"",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "135989386",
+    "range": "60504644 - 60504644",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
+,
+{
+    "id": 0,
     "numberFrom": 60504645,
     "numberTo": 60504645,
     "status": "Užimtas",
