@@ -1,3 +1,3 @@
 #! /usr/bin/env -S awk -f
 
-/ownerFullName/ {print} /range/
+BEGIN { FS=/"/ } /ownerFullName/ {print} /range/
