@@ -9,10 +9,9 @@ BEGIN \
 {
     gsub(/\\"/, "'")
     OWNER = $4
-    print $4
 }
 
 /range/ \
 {
-    print $4
+    print $4" "OWNER
 }
