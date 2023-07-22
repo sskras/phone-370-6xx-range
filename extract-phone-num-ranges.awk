@@ -7,7 +7,7 @@ BEGIN \
 
 /ownerFullName/ \
 {
-    gsub(/\\"/, "'")
+    gsub(/\\"/, "")
     OWNER = $4
 }
 
