@@ -7,10 +7,8 @@ BEGIN \
 
 /ownerFullName/ \
 {
-    print NF
     print
     gsub(/\\"/, "'")
-    print NF
     print $4
 }
 
