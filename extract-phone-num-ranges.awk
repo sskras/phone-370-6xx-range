@@ -1,6 +1,9 @@
 #! /usr/bin/env -S awk -f
 
-BEGIN { FS="[\"]" }
+BEGIN \
+{
+    FS="[\"]"
+}
 
 /ownerFullName/ {print NF; print }
 
