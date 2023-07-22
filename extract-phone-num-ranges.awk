@@ -5,6 +5,10 @@ BEGIN \
     FS="[\"]"
 }
 
-/ownerFullName/ {print NF; print }
+/ownerFullName/ \
+{
+    print NF
+    print
+}
 
 /range/
