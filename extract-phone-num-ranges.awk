@@ -1,3 +1,5 @@
 #! /usr/bin/env -S awk -f
 
-BEGIN { FS="[\"]" } /ownerFullName/ {print NF; print } /range/
+BEGIN { FS="[\"]" } /ownerFullName/ {print NF; print }
+
+/range/
