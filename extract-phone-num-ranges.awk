@@ -10,6 +10,7 @@ BEGIN \
     print NF
     print
     gsub(/\\"/, "'")
+    print NF
     print
 }
 
