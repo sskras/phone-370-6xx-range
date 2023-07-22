@@ -14,5 +14,5 @@ BEGIN \
 /range/ \
 {
     RANGE = $4
-    print $4" "OWNER
+    print RANGE" "OWNER
 }
