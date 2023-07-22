@@ -7,7 +7,6 @@ BEGIN \
 
 /ownerFullName/ \
 {
-    print
     gsub(/\\"/, "'")
     print $4
 }
