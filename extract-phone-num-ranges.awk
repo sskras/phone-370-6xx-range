@@ -13,6 +13,5 @@ BEGIN \
 
 /range/ \
 {
-    print NF
     print $4
 }
