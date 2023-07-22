@@ -1,17 +1,17 @@
 #! /usr/bin/env -S awk -f
 
-BEGIN \
+BEGIN                 \
 {
     FS="[\"]"
 }
 
-/ownerFullName/ \
+/ownerFullName/       \
 {
     gsub(/\\"/, "")
     OWNER = $4
 }
 
-/range/ \
+/range/               \
 {
     RANGE = $4
     print RANGE" "OWNER
