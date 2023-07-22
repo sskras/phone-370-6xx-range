@@ -1,3 +1,3 @@
 #! /usr/bin/env -S awk -f
 
-/ownerFullName|range/
+/ownerFullName/ || /range/
