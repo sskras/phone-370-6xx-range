@@ -12,3 +12,7 @@ BEGIN \
 }
 
 /range/
+{
+    print NF
+    print
+}
