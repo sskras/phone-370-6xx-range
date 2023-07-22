@@ -11,7 +11,7 @@ BEGIN \
     print
     gsub(/\\"/, "'")
     print NF
-    print
+    print $4
 }
 
 /range/ \
