@@ -9,4 +9,4 @@ list:
 
 telia:
 	@echo
-	@cat phone-num-ranges.txt | awk '/Telia/ { print $$1 }'
+	@cat phone-num-ranges.txt | awk '/Telia/ { print $$1" "$$2 }'
