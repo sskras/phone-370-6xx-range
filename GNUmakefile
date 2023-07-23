@@ -15,4 +15,4 @@ state-%: all
 	@cat phone-num-ranges.txt | awk 'BEGIN { while (getline < "phone-num-state.txt") state[$$1] = $$2 } /$*/ { num = $$1; print num" "state[num] }'
 
 find-%:
-	grep -E $*
+	@grep -E "^.....(6..|.9.|..6)"
