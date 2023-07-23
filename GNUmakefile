@@ -5,7 +5,7 @@ all:
 
 list:
 	@echo
-	@cat phone-num-ranges.txt | awk '$$1 == $$3 { gsub(/./, " ", $$2); gsub(/./, " ", $$3); print; next } { print }'
+	@cat phone-num-ranges.txt | awk '$$1 == $$3 { gsub(/./, " ", $$3); print; next } { print }'
 
 telia:
 	@echo
