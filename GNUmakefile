@@ -10,4 +10,4 @@ list: all
 
 telia: all
 	@echo
-	@cat phone-num-ranges.txt | awk 'BEGIN { while (getline < "phone-num-state.txt") state[$$1] = $$2 } /Telia/ { num = $$1; print num" "state[num] }'
+	@cat phone-num-ranges.txt | awk 'BEGIN { while (getline < "phone-num-state.txt") state[$$1] = $$2 } /Bitė/ { num = $$1; print num" "state[num] }'
