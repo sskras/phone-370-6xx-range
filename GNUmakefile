@@ -1,9 +1,9 @@
-all:
+all: numeracija.rrt.lt-responses.json
 	@cat numeracija.rrt.lt-responses.json | ./extract-phone-num-ranges.awk > phone-num-ranges.txt
 	@git diff .
 	@git commit -m 'phone-num-ranges.txt: Range update' phone-num-ranges.txt
 
-list: numeracija.rrt.lt-responses.json
+list:
 	@echo
 	@cat phone-num-ranges.txt | awk '$$1 == $$3 { gsub(/./, " ", $$3); print; next } { print }'
 
