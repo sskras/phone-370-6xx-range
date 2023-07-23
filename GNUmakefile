@@ -8,6 +8,6 @@ list: all
 	@echo
 	@cat phone-num-ranges.txt | awk '$$1 == $$3 { gsub(/./, " ", $$3); print; next } { print }'
 
-telia-s: all
+state-telia: all
 	@echo
 	@cat phone-num-ranges.txt | awk 'BEGIN { while (getline < "phone-num-state.txt") state[$$1] = $$2 } /Telia/ { num = $$1; print num" "state[num] }'
