@@ -1,4 +1,4 @@
-all: numeracija.rrt.lt-responses.json
+all:
 	@cat numeracija.rrt.lt-responses.json | ./extract-phone-num-ranges.awk > phone-num-ranges.txt
 	@git diff .
 	@git commit -m 'phone-num-ranges.txt: Range update' phone-num-ranges.txt
