@@ -1,37 +1,5 @@
 {
     "id": 0,
-    "numberFrom": 60504798,
-    "numberTo": 60504798,
-    "status": "Užimtas",
-    "ownerFullName": "UAB \"Bitė Lietuva\"",
-    "numberCount": 0,
-    "numberPlanId": 0,
-    "personType": 0,
-    "personalCode": "110688998",
-    "range": "60504798 - 60504798",
-    "canAssign": false,
-    "canRevoke": false,
-    "canTransfer": false
-}
-,
-{
-    "id": 0,
-    "numberFrom": 60504799,
-    "numberTo": 60504802,
-    "status": "Užimtas",
-    "ownerFullName": "UAB \"Tele2\"",
-    "numberCount": 0,
-    "numberPlanId": 0,
-    "personType": 0,
-    "personalCode": "111471645",
-    "range": "60504799 - 60504802",
-    "canAssign": false,
-    "canRevoke": false,
-    "canTransfer": false
-}
-,
-{
-    "id": 0,
     "numberFrom": 60506391,
     "numberTo": 60506441,
     "status": "Užimtas",
@@ -889,6 +857,38 @@
     "personType": 0,
     "personalCode": "121215434",
     "range": "60504797 - 60504797",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
+,
+{
+    "id": 0,
+    "numberFrom": 60504798,
+    "numberTo": 60504798,
+    "status": "Užimtas",
+    "ownerFullName": "UAB \"Bitė Lietuva\"",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "110688998",
+    "range": "60504798 - 60504798",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
+,
+{
+    "id": 0,
+    "numberFrom": 60504799,
+    "numberTo": 60504802,
+    "status": "Užimtas",
+    "ownerFullName": "UAB \"Tele2\"",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "111471645",
+    "range": "60504799 - 60504802",
     "canAssign": false,
     "canRevoke": false,
     "canTransfer": false
