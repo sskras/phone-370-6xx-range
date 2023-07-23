@@ -1,5 +1,21 @@
 {
     "id": 0,
+    "numberFrom": 60504327,
+    "numberTo": 60504327,
+    "status": "Užimtas",
+    "ownerFullName": "UAB \"Bitė Lietuva\"",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "110688998",
+    "range": "60504327 - 60504327",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
+,
+{
+    "id": 0,
     "numberFrom": 60504328,
     "numberTo": 60504330,
     "status": "Užimtas",
