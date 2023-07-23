@@ -1,4 +1,4 @@
-.PHONY: all list state-Telia
+.PHONY: all list
 
 all:
 	@cat numeracija.rrt.lt-responses.json | ./extract-phone-num-ranges.awk > phone-num-ranges.txt
