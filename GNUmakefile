@@ -9,4 +9,4 @@ list:
 
 telia:
 	@echo
-	@awk 'BEGIN { do alive[$$1]; while (getline < "phone-num-alive.txt") } /Telia/ { num = $$1; sign = (num in alive) ? "!" : "-"; print num" "sign }' phone-num-ranges.txt
+	@cat phone-num-ranges.txt | awk 'BEGIN { do alive[$$1]; while (getline < "phone-num-alive.txt") } /Telia/ { num = $$1; sign = (num in alive) ? "!" : "-"; print num" "sign }'
