@@ -1,7 +1,7 @@
 all:
 	@cat numeracija.rrt.lt-responses.json | ./extract-phone-num-ranges.awk > phone-num-ranges.txt
 	@# Via: https://stackoverflow.com/questions/5143795/how-can-i-check-in-a-bash-script-if-my-local-git-repository-has-changes/5143914#comment11054534_5143914
-	@git diff --quiet --exit-code phone-num-ranges.txt || \
+	@git diff --exit-code phone-num-ranges.txt || \
 	 git commit -m 'phone-num-ranges.txt: Range update' phone-num-ranges.txt
 
 list:
