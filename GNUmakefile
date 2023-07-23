@@ -3,7 +3,7 @@ all: numeracija.rrt.lt-responses.json
 	@git diff .
 	@git commit -m 'phone-num-ranges.txt: Range update' phone-num-ranges.txt
 
-list:
+list: phone-num-ranges.txt
 	@echo
 	@cat phone-num-ranges.txt | awk '$$1 == $$3 { gsub(/./, " ", $$3); print; next } { print }'
 
