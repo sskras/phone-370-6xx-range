@@ -9,4 +9,4 @@ list:
 
 telia:
 	@echo
-	@awk 'FNR == NR { alive[$$0] = 1 } FNR != NR && /Telia/ { print $$1" "$$2 }' phone-num-alive.txt phone-num-ranges.txt
+	@awk 'FNR == NR { alive[$$0] = 1; next } /Telia/ { print $$1" "$$2 }' phone-num-alive.txt phone-num-ranges.txt
