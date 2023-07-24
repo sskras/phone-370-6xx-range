@@ -78,3 +78,8 @@ $ make list
 ```
 9. Tikriname numerio būseną kitais būdais
 10. Įrašome būseną į failą `phone-num-state.txt`. Pvz. 8aab519aad84d4f827caa0d07a0cb59ae1200512
+```
+  ...
+60504679 ~
+  ...
+```
