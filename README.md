@@ -77,7 +77,7 @@ $ make list
   ...
 ```
 9. Tikriname numerio būseną kitais būdais
-10. Įrašome būseną į failą `phone-num-state.txt`. Pvz. 4447bba73f53cedaa4b3bedb455b391715fea50c
+10. Įrašome būseną į failą `phone-num-state.txt`. Pvz. [`4447bba`](https://github.com/sskras/phone-370-6xx-range/commit/4447bba)
 ```
 --- a/phone-num-state.txt
 +++ b/phone-num-state.txt
