@@ -3,9 +3,9 @@
 $1 == $3 \
 {
     if ( $1 == $3 ) {
-    gsub(/./, " ", $3)
-    print
-    next
+        gsub(/./, " ", $3)
+        print
+        next
     }
 }
 
