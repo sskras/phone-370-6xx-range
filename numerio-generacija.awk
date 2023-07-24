@@ -10,5 +10,10 @@
     {
         first_step = gensub(/\./, i, 1)
         print first_step
+
+        for (j = 0; j<10; j++)
+        {
+            second_step = gensub(/\./, j, 1, first_step)
+        }
     }
 }
