@@ -42,4 +42,7 @@ curl 'https://numeracija.rrt.lt/api/public/number/checknumber' \
 }
 ```
 6. Įrašome į `numeracija.rrt.lt-responses.json`, pvz. f49cb7fdafea52cf9b9faded3afbe464cdfa228d
-7. `make all`
+7. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
+```
+make all
+```
