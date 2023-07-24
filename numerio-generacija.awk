@@ -9,7 +9,6 @@
     for (i = 0; i<10; i++)
     {
         first_step = gensub(/\./, i, 1)
-        print first_step
 
         for (j = 0; j<10; j++)
         {
