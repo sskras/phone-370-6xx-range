@@ -7,7 +7,7 @@
 * Pasikartojantis kvietimas su papypsėjimu
 . Skambutis atmestas be kvietimo signalo
 
-60501596 +
+60501596 +=
 60501626 !
 60501636 !
 60501676 ~=
