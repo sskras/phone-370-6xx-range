@@ -14,6 +14,7 @@
         for (j = 0; j<10; j++)
         {
             second_step = gensub(/\./, j, 1, first_step)
+            print second_step
         }
     }
 }
