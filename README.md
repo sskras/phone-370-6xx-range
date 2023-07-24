@@ -108,4 +108,24 @@ $ make list | make state-Telia
 ```
 12. Filtruojame numerius pagal Hardcoded prefiksą ir vieną iš trijų skaitmenų (`6`, `9` ir `6`):
 ```
+$ make list | make state-Bitė | make filter
+60504093 !
+60504095 !
+60504246 !
+60504291 ++
+60504297 !
+60504546 !
+60504586 !
+60504616 !
+60504631 !
+60504652 !
+60504659 !
+60504681 !
+60504693 !
+60504695 !
+60504736 !
+60504793 ++
+60504798 !
+60504826 !
+60504916 !
 ```
