@@ -5309,3 +5309,19 @@
     "canRevoke": false,
     "canTransfer": false
 }
+,
+{
+    "id": 0,
+    "numberFrom": 60505672,
+    "numberTo": 60505677,
+    "status": "Užimtas",
+    "ownerFullName": "UAB \"Tele2\"",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "111471645",
+    "range": "60505672 - 60505677",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
