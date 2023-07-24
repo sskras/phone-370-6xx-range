@@ -21,4 +21,4 @@ filter-two:
 	@grep -E "^.....(6.6|69.|.96)"
 
 gen:
-	@cat numerio-generacija.txt | awk '/^6/'
+	@cat numerio-generacija.txt | ./numerio-generacija.awk
