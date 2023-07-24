@@ -1,5 +1,21 @@
 {
     "id": 0,
+    "numberFrom": 60506391,
+    "numberTo": 60506441,
+    "status": "Užimtas",
+    "ownerFullName": "UAB \"Tele2\"",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "111471645",
+    "range": "60506391 - 60506441",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
+,
+{
+    "id": 0,
     "numberFrom": 60594692,
     "numberTo": 60594711,
     "status": "Užimtas",
@@ -5129,22 +5145,6 @@
     "personType": 0,
     "personalCode": "110688998",
     "range": "60505000 - 60505000",
-    "canAssign": false,
-    "canRevoke": false,
-    "canTransfer": false
-}
-,
-{
-    "id": 0,
-    "numberFrom": 60506391,
-    "numberTo": 60506441,
-    "status": "Užimtas",
-    "ownerFullName": "UAB \"Tele2\"",
-    "numberCount": 0,
-    "numberPlanId": 0,
-    "personType": 0,
-    "personalCode": "111471645",
-    "range": "60506391 - 60506441",
     "canAssign": false,
     "canRevoke": false,
     "canTransfer": false
