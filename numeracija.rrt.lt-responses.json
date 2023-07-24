@@ -1,5 +1,21 @@
 {
     "id": 0,
+    "numberFrom": 60501677,
+    "numberTo": 60501703,
+    "status": "Užimtas",
+    "ownerFullName": "UAB \"Tele2\"",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "111471645",
+    "range": "60501677 - 60501703",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
+,
+{
+    "id": 0,
     "numberFrom": 60501796,
     "numberTo": 60501796,
     "status": "Užimtas",
