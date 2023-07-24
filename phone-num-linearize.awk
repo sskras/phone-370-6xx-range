@@ -11,6 +11,8 @@
     print
 
     $1 = $2 = ""
+    sub(/^ +/, "")
+
     print
 
     for ( NUM = NUM_FROM; NUM <= NUM_TO; NUM++)
