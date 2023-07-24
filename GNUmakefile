@@ -16,3 +16,6 @@ state-%: all
 
 filter:
 	@grep -E "^.....(6..|.9.|..6)"
+
+filter-two:
+	@grep -E "^.....(6.6|69.|.96)"
