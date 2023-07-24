@@ -5,7 +5,7 @@
     print
     for (i = 0; i<10; i++)
     {
-        gensub(/./, i, 1)
+        print gensub(/./, i, 1)
         print i
     }
 }
