@@ -17,6 +17,6 @@
     print NUM_PROVIDER
 
     for ( NUM = NUM_FROM; NUM <= NUM_TO; NUM++)
-        print NUM;
+        print NUM" "NUM_PROVIDER;
 
 }
