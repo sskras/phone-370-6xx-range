@@ -41,7 +41,7 @@ curl 'https://numeracija.rrt.lt/api/public/number/checknumber' \
     "canTransfer": false
 }
 ```
-6. Įterpiame jį į `numeracija.rrt.lt-responses.json`, pvz. a74954ca97fc80be521f0f81a43bec2f741b7137
+6. Įterpiame jį į `numeracija.rrt.lt-responses.json`, pvz. 0fe57528725fd2579cb6443c31ccf781dfa84a21
 7. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
 ```
 $ make all
@@ -77,7 +77,7 @@ $ make list
   ...
 ```
 9. Tikriname numerio būseną kitais būdais
-10. Įrašome būseną į failą `phone-num-state.txt`. Pvz. 8aab519aad84d4f827caa0d07a0cb59ae1200512
+10. Įrašome būseną į failą `phone-num-state.txt`. Pvz. 4447bba73f53cedaa4b3bedb455b391715fea50c
 ```
 --- a/phone-num-state.txt
 +++ b/phone-num-state.txt
