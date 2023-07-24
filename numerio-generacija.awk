@@ -3,7 +3,7 @@
 /^6.+\./ && !/\|/ \
 {
     print ""
-    print "- "$0
+    print $0":"
     print ""
 
     for (i = 0; i<10; i++)
