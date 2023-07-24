@@ -5,7 +5,7 @@
     NUM_TO   = $3
 
     if ( NUM_FROM == NUM_TO ) {
-        gsub(/./, " ", $3)
+       #gsub(/./, " ", $3)
     }
 
    #print
