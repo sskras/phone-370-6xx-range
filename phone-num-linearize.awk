@@ -11,6 +11,7 @@
    #print
 
     $1 = $2 = $3 = ""
+    sub(/^ +/, "")
     NUM_PROVIDER = $0
 
     print NUM_PROVIDER
