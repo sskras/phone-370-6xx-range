@@ -19,3 +19,6 @@ filter:
 
 filter-two:
 	@grep -E "^.....(6.6|69.|.96)"
+
+gen:
+	@awk '/^6/'
