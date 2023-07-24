@@ -48,7 +48,21 @@ make all
 ```
 8. Suformuojame vienmatį sąrašą:
 ```
-make list
+$ make list
+  ...
+60504990 UAB Tele2
+60504991 Telia Lietuva, AB
+60504992 UAB Tele2
+60504993 Telia Lietuva, AB
+60504994 UAB Tele2
+60504995 UAB Tele2
+60504996 UAB Tele2
+60504997 UAB Tele2
+60504998 Telia Lietuva, AB
+60504999 UAB Tele2
+60505000 UAB Bitė Lietuva
+60506391 UAB Tele2
+  ...
 ```
 9. Tikriname numerio būseną kitais būdais
 10. Įrašome būseną į failą `phone-num-state.txt`. Pvz. 8aab519aad84d4f827caa0d07a0cb59ae1200512
