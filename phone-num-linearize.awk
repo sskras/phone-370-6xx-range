@@ -8,5 +8,8 @@
         gsub(/./, " ", $3)
     }
 
+    for ( NUM = NUM_FROM; NUM <= NUM_TO; NUM++)
+        ;
+
     print
 }
