@@ -102,4 +102,7 @@ $ make list | make state-Teledema
 60504566 !
 60504633 ~
 60504644 !
+
+$ make list | make state-Tele2
+  ...
 ```
