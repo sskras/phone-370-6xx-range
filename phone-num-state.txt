@@ -4,6 +4,7 @@
 / Numeris užregistruotas
 - Šiuo metu abonentas nepasiekiamas
 = Sujungimas negalimas, prašome patikrinti numerį
+. Pasikartojantis kvietimas su papypsėjimu
 
 60504016 !
 60504052 !
@@ -49,7 +50,7 @@
 60504793 +/
 60504797 !
 60504798 !
-60504803 +
+60504803 +.
 60504818 !
 60504826 !
 60504850 !
