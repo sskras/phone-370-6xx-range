@@ -12,7 +12,7 @@ list: all
 
 state-%: all
 	@echo
-	@cat phone-num-ranges.txt | ./phone-num-merge-state.awk PROVIDER=$*
+	@awk -f phone-num-merge-state.awk PROVIDER=$*
 
 filter:
 	@grep -E "^.....(6..|.9.|..6)"
