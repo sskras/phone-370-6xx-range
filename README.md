@@ -106,6 +106,6 @@ $ make list | make state-Teledema
 $ make list | make state-Telia
   ...
 ```
-12. Filtruojame numerius pagal Hardcoded prefiksą ir vieną iš trijų skaitmenų:
+12. Filtruojame numerius pagal Hardcoded prefiksą ir vieną iš trijų skaitmenų (`6`, `9` ir `6`):
 ```
 ```
