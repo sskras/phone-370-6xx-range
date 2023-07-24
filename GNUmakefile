@@ -22,3 +22,6 @@ filter-two:
 
 gen:
 	@cat numerio-generacija.txt | ./numerio-generacija.awk
+
+gen-sort:
+	@grep ^6 | sort -n
