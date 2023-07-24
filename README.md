@@ -129,3 +129,10 @@ $ make list | make state-Bitė | make filter
 60504826 !
 60504916 !
 ```
+13. Filtruojame būsenas numerių, kurie atitinka Hardcoded prefiksą ir **du** iš trijų skaitmenų (`6`, `9` ir `6`):
+```
+$ make list | make state-Bitė | make filter-two
+60504616 !
+60504693 !
+60504695 !
+```
