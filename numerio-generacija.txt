@@ -1,1 +1,7 @@
+ _ Pastovioji dalis, priešdėlis / prefiksas
+|
+|   _ Kintanti dalis, noriu parinkti kuo artimesnę
+|  |
+v  v
+===.....
 60504696
