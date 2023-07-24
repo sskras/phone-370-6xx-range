@@ -8,6 +8,7 @@
 . Skambutis atmestas be kvietimo signalo
 : Numeris nenaudojamas
 
+60501636 !
 60501676 ~:
 60501796 ~.
 60502196 !
