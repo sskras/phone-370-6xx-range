@@ -3,6 +3,7 @@
 ~ Siunčiama
 / Numeris užregistruotas
 - Šiuo metu abonentas nepasiekiamas
+= Sujungimas negalimas, prašome patikrinti numerį
 
 60504016 !
 60504052 !
