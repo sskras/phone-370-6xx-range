@@ -2,7 +2,9 @@
 
 /^6.+\./ && !/\|/ \
 {
-    print "\n"$0":\n"
+    print ""
+    print "- "$0
+    print ""
 
     for (i = 0; i<10; i++)
     {
