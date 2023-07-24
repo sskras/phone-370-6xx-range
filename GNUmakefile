@@ -24,4 +24,4 @@ gen:
 	@cat numerio-generacija.txt | ./numerio-generacija.awk
 
 reset-sort:
-	@grep ^6 | sort -n
+	@grep ^6 | sort -n | pv > generated-num-sort.txt
