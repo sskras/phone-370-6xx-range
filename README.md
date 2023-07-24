@@ -41,4 +41,4 @@ curl 'https://numeracija.rrt.lt/api/public/number/checknumber' \
     "canTransfer": false
 }
 ```
-6. Įrašome į `numeracija.rrt.lt-responses.json`, pvz. ff4e2ef47fb03b65bef959b0ea69425313a15538
+6. Įrašome į `numeracija.rrt.lt-responses.json`, pvz. f49cb7fdafea52cf9b9faded3afbe464cdfa228d
