@@ -1,4 +1,4 @@
-.PHONY: all list
+.PHONY: all list filter
 
 all:
 	@cat numeracija.rrt.lt-responses.json | ./extract-phone-num-ranges.awk > phone-num-ranges.txt
