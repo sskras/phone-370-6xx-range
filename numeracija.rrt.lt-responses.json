@@ -1,5 +1,21 @@
 {
     "id": 0,
+    "numberFrom": 60503396,
+    "numberTo": 60503396,
+    "status": "Užimtas",
+    "ownerFullName": "Telia Lietuva, AB",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "121215434",
+    "range": "60503396 - 60503396",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
+,
+{
+    "id": 0,
     "numberFrom": 60503495,
     "numberTo": 60503501,
     "status": "Užimtas",
