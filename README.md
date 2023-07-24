@@ -23,3 +23,21 @@ curl 'https://numeracija.rrt.lt/api/public/number/checknumber' \
   --data-raw '{"number":"60504696","recaptcha":"03AAYGu2TXMUvSuLLW2flmgb9O-qOtSwf09jFDaTDf1yy5-19CuI-DnT3B396figJVj7FgiMuLCpSJFLk_N_-q4iEJrUzNJVPbu_M1FCauQKIdFTqjK2CX3ojXsD_Eg4cuam3n7RqQKqkQgHPvQT-faUN_A3FKmQgoYA3CD7DgCMfdhnKo8FnxLXssyVjBzCf0OAdoZ0L-T3R5Sg4FiC9BBSzwwQCIJYaP6OgryfyFrotwWvABueMb5E1paMhckjEd_hSvN9Dmyryk0l4Nh0xTBBUoKd9BvWlk5gnixN--2SxDV6HUmcEgiS_O9IbT0r8opU66fSk_nnnLZSi2w7ytWzSsst0z7_VgCOBCm2ozT-IeBhf4g4GiehyRs0z-AFOm3gpFYawiBpQsBYf7oGaxWMog_xd_RTIJucuKXmY4cA5RtIGvN8G3p3D0r7BctJZjtmieGzZ0WifAV2H0mkt6wauypJ3B6rvkX6XukZPC_7lYSbXzh7iDLCUePFS-P9Lnr993FAoy9ui5aaNle4V6tmHeolU8EdSUDYut8CBo0le3aTlIdWHrZI4"}' \
   --compressed
 ```
+5. Gauname atsakymą JSON formatu:
+```
+{
+    "id": 0,
+    "numberFrom": 60504696,
+    "numberTo": 60504720,
+    "status": "Užimtas",
+    "ownerFullName": "UAB \"Tele2\"",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "111471645",
+    "range": "60504696 - 60504720",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
+```
