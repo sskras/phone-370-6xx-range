@@ -46,3 +46,7 @@ curl 'https://numeracija.rrt.lt/api/public/number/checknumber' \
 ```
 make all
 ```
+8. Suformuojame vienmatį sąrašą:
+```
+make list
+```
