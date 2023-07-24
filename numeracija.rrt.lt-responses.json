@@ -1,5 +1,4 @@
 {
-	{
     "id": 0,
     "numberFrom": 60500866,
     "numberTo": 60500904,
@@ -15,6 +14,7 @@
     "canTransfer": false
 }
 ,
+{
     "id": 0,
     "numberFrom": 60500996,
     "numberTo": 60500997,
