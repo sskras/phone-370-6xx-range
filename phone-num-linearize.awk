@@ -12,7 +12,7 @@
 
     $1 = $2 = $3 = ""
    #sub(/^ +/, "")
-    NUM_PROVIDER = $0
+    NUM_PROVIDER = $1
 
     print NUM_PROVIDER
 
