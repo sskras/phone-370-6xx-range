@@ -11,6 +11,7 @@
     print
 
     $1 = $2 = ""
+    print
 
     for ( NUM = NUM_FROM; NUM <= NUM_TO; NUM++)
         print NUM;
