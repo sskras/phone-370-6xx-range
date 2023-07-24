@@ -136,3 +136,38 @@ $ make list | make state-Bitė | make filter-two
 60504693 !
 60504695 !
 ```
+14. Filtruojame rastus visų tiekėjų numerius pagal Hardcoded reikšmes:
+```
+$ make list | make filter-two
+60503996 UAB Tele2
+60504096 UAB Tele2
+60504196 UAB Tele2
+60504296 UAB Tele2
+60504396 UAB Tele2
+60504496 UAB Tele2
+60504596 UAB Tele2
+60504606 UAB Tele2
+60504616 UAB Bitė Lietuva
+60504626 UAB Tele2
+60504636 UAB Tele2
+60504646 Telia Lietuva, AB
+60504656 UAB Tele2
+60504666 UAB Tele2
+60504676 UAB Tele2
+60504686 UAB Tele2
+60504690 UAB Tele2
+60504691 UAB Tele2
+60504692 UAB Tele2
+60504693 UAB Bitė Lietuva
+60504694 UAB Tele2
+60504695 UAB Bitė Lietuva
+60504696 UAB Tele2
+60504697 UAB Tele2
+60504698 UAB Tele2
+60504699 UAB Tele2
+60504796 UAB Tele2
+60504896 UAB Tele2
+60504996 UAB Tele2
+60506396 UAB Tele2
+
+```
