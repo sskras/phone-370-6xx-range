@@ -2,7 +2,7 @@
 + Nepristatyta
 ~ Siunčiama
 / Numeris užregistruotas
-- Šiuo metu abonentas nepasiekiamas
+- Šiuo metu abonentas nepasiekiamas / su vartotoju nėra galimybės susisiekti
 = Sujungimas negalimas, prašome patikrinti numerį
 * Pasikartojantis kvietimas su papypsėjimu
 . Skambutis atmestas be kvietimo signalo
@@ -69,7 +69,7 @@
 60504826 !
 60504850 !
 60504865 !
-60504911 ~
+60504911 ~-
 60504916 !
 60504947 !
 60504957 !
