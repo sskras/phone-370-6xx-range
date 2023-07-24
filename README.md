@@ -85,5 +85,6 @@ $ make list
 ```
 11. Prijungiame sužymėtas numerių būsenas prie surastų numerių pagal tiekėjo vardą:
 ```
-
+$ make state-Telia
+$ make state-Bitė
 ```
