@@ -5341,3 +5341,19 @@
     "canRevoke": false,
     "canTransfer": false
 }
+,
+{
+    "id": 0,
+    "numberFrom": 60505690,
+    "numberTo": 60505690,
+    "status": "Užimtas",
+    "ownerFullName": "UAB \"Teledema\"",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "135989386",
+    "range": "60505690 - 60505690",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
