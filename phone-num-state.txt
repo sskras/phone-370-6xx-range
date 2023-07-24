@@ -6,6 +6,7 @@
 = Sujungimas negalimas, prašome patikrinti numerį
 . Pasikartojantis kvietimas su papypsėjimu
 
+60501796 ~
 60502196 !
 60502396 !
 60502691 !
