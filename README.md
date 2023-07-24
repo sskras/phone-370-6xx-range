@@ -92,11 +92,11 @@ $ make list
 ```
 11. Prijungiame sužymėtas numerių būsenas prie surastų numerių pagal tiekėjo vardą:
 ```
-$ make state-Telia
+$ make list | make state-Telia
   ...
-$ make state-Bitė
+$ make list | make state-Bitė
   ...
-$ make state-Teledema
+$ make list | make state-Teledema
 
 60504052 !
 60504566 !
