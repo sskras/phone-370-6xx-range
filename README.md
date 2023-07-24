@@ -83,3 +83,7 @@ $ make list
 60504679 ~
   ...
 ```
+11. Prijungiame sužymėtas numerių būsenas prie surastų numerių pagal tiekėjo vardą:
+```
+
+```
