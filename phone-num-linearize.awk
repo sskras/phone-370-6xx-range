@@ -14,8 +14,6 @@
     sub(/^ +/, "")
     NUM_PROVIDER = $0
 
-    print NUM_PROVIDER
-
     for ( NUM = NUM_FROM; NUM <= NUM_TO; NUM++)
         print NUM" "NUM_PROVIDER;
 
