@@ -20,7 +20,7 @@ curl 'https://numeracija.rrt.lt/api/public/number/checknumber' \
   -H 'sec-fetch-mode: cors' \
   -H 'sec-fetch-site: same-origin' \
   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
-  --data-raw '{"number":"60504696","recaptcha":"03AAYGu2TXMUvSuLLW2flmgb9O-qOtSwf09jFDaTDf1yy5-19CuI-DnT3B396figJVj7FgiMuLCpSJFLk_N_-q4iEJrUzNJVPbu_M1FCauQKIdFTqjK2CX3ojXsD_Eg4cuam3n7RqQKqkQgHPvQT-faUN_A3FKmQgoYA3CD7DgCMfdhnKo8FnxLXssyVjBzCf0OAdoZ0L-T3R5Sg4FiC9BBSzwwQCIJYaP6OgryfyFrotwWvABueMb5E1paMhckjEd_hSvN9Dmyryk0l4Nh0xTBBUoKd9BvWlk5gnixN--2SxDV6HUmcEgiS_O9IbT0r8opU66fSk_nnnLZSi2w7ytWzSsst0z7_VgCOBCm2ozT-IeBhf4g4GiehyRs0z-AFOm3gpFYawiBpQsBYf7oGaxWMog_xd_RTIJucuKXmY4cA5RtIGvN8G3p3D0r7BctJZjtmieGzZ0WifAV2H0mkt6wauypJ3B6rvkX6XukZPC_7lYSbXzh7iDLCUePFS-P9Lnr993FAoy9ui5aaNle4V6tmHeolU8EdSUDYut8CBo0le3aTlIdWHrZI4"}' \
+  --data-raw '{"number":"60503999","recaptcha":"03AAYGu2Q-m0u8At-0zcNxGcTX2zsDsLq-VzsH0zh2rtsEvzYdnu5y4VXdfnlEIDc-XZzcZPGuiadnQqNpQ2d6L7t7jTGA5ZWUViX_G_NLgHYKPxQUjQ4_WXNpNcu4AgKdIVQb1K46x4l28xhiBSlYgM7P93bp0R8ePTvarlRHGYD9O729uYbN_flTQbW0M8bHW5B1gNY5m18SKmdZM2imdZbkclSezKvcoA5sZja5JLm2i0oK32GatqyaBO5cUnAjHWhIOUm7wSJtx4dvzSZ8PrsFqq2OOejYP3H3Sy-zWv4l7tUpOQSMrjMhSgytck7laASG0PVGtHkFCHXFCqfDkNYLfDsLjZk_q0C_Lto1aqZjJMfSSFWbeC1kw39V5eaqRC0gqUXzH4vhDS9aKww96qFFnH__KSTaUGrAF8iO0PkDgNTWPUwbjF2M_O8I9g11xeEHemafEYLcw39PZmOlyuDpbzWoRYJIZJVT6iulfc-rsNDr7WLbUbD81tPpSTzVhwp9LvVC8V4uJxcQBtegHE_MEOmKO2i5jokYFDl_fWdcxS5XA24tbhU"}' \
   --compressed
 ```
 5. Gauname atsakymą JSON formatu:
@@ -41,10 +41,22 @@ curl 'https://numeracija.rrt.lt/api/public/number/checknumber' \
     "canTransfer": false
 }
 ```
-6. Įrašome į `numeracija.rrt.lt-responses.json`, pvz. f49cb7fdafea52cf9b9faded3afbe464cdfa228d
+6. Įterpiame jį į `numeracija.rrt.lt-responses.json`, pvz. a74954ca97fc80be521f0f81a43bec2f741b7137
 7. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
 ```
 $ make all
+diff --git a/phone-num-ranges.txt b/phone-num-ranges.txt
+index bf79cb2..df59ab1 100644
+--- a/phone-num-ranges.txt
++++ b/phone-num-ranges.txt
+@@ -1,3 +1,4 @@
++60503989 - 60503999 UAB Tele2
+ 60504000 - 60504000 UAB Bitė Lietuva
+ 60504001 - 60504003 UAB Tele2
+ 60504004 - 60504004 Telia Lietuva, AB
+[master 2e7a4b3] phone-num-ranges.txt: Range update
+ 1 file changed, 1 insertion(+)
+
 ```
 8. Suformuojame vienmatį sąrašą:
 ```
