@@ -3,6 +3,7 @@
 ++ Nepristatyta, sutampa daug skaitmenų
 ~ Siunčiama
 | Numeris užregistruotas
+- Šiuo metu abonentas nepasiekiamas
 
 60504016 !
 60504052 !
@@ -29,7 +30,7 @@
 60504625 !
 60504631 !
 60504632 !
-60504633 ~
+60504633 ~-
 60504644 !
 60504646 !
 60504647 !
