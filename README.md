@@ -169,5 +169,4 @@ $ make list | make filter-two
 60504896 UAB Tele2
 60504996 UAB Tele2
 60506396 UAB Tele2
-
 ```
