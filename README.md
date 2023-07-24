@@ -41,7 +41,7 @@ curl 'https://numeracija.rrt.lt/api/public/number/checknumber' \
     "canTransfer": false
 }
 ```
-6. Įterpiame jį į `numeracija.rrt.lt-responses.json`, pvz. 0fe57528725fd2579cb6443c31ccf781dfa84a21
+6. Įterpiame jį į `numeracija.rrt.lt-responses.json`, pvz. [0fe5752](https://github.com/sskras/phone-370-6xx-range/commit/0fe5752)
 7. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
 ```
 $ make all
