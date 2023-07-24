@@ -5,8 +5,9 @@
 - Šiuo metu abonentas nepasiekiamas
 = Sujungimas negalimas, prašome patikrinti numerį
 * Pasikartojantis kvietimas su papypsėjimu
+. Skambutis atmestas be kvietimo signalo
 
-60501796 ~
+60501796 ~.
 60502196 !
 60502396 !
 60502691 !
