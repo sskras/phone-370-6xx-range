@@ -3,8 +3,7 @@
 {
     if ( $1 == $3 ) {
         gsub(/./, " ", $3)
-        print
-        next
     }
+
     print
 }
