@@ -6029,3 +6029,19 @@
     "canRevoke": false,
     "canTransfer": false
 }
+,
+{
+    "id": 0,
+    "numberFrom": 60507690,
+    "numberTo": 60507690,
+    "status": "Užimtas",
+    "ownerFullName": "UAB \"Bitė Lietuva\"",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "110688998",
+    "range": "60507690 - 60507690",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
