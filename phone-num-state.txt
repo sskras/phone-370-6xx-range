@@ -8,7 +8,7 @@
 . Skambutis atmestas be kvietimo signalo
 
 60500096 TODO
-60500396 TODO
+60500396 !
 60500691 TODO
 60500996 !
 60501096 !
