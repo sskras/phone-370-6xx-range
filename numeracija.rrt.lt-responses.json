@@ -6061,3 +6061,19 @@
     "canRevoke": false,
     "canTransfer": false
 }
+,
+{
+    "id": 0,
+    "numberFrom": 60507796,
+    "numberTo": 60507796,
+    "status": "Užimtas",
+    "ownerFullName": "UAB \"Teledema\"",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "135989386",
+    "range": "60507796 - 60507796",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
