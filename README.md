@@ -396,4 +396,8 @@ index d9667a4..0186b19 100644
 - išsiunčiame tuščią žinutę;
 - paskambiname tuo numeriu;
 - pasiteiraujame apie jo registracijos būseną salone ar Back-ofise.
+
+21. Einame pažymėti šią būseną faile `phone-num-state.txt`:
+```
+```
 </details>
