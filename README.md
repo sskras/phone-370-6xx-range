@@ -341,7 +341,7 @@ $ fg %?.json
 }
 ```
 17. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
-```
+```diff
 $ make all
 diff --git a/phone-num-ranges.txt b/phone-num-ranges.txt
 index e69de29..d9667a4 100644
