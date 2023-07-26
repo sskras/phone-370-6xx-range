@@ -1,7 +1,7 @@
 1. Atsiverčiame [RRT Numerio paiešką](https://numeracija.rrt.lt/savitarna/user/#/number)
 2. Suvedame numerį
 3. Spaudžiame „Ieškoti numerio“
-4. Galima užklausa `curl` formatu, tik ji reikalauja reCAPTCHA. Pvz.:
+4. Galima užklausa `curl` formatu, tik ji reikalauja reCAPTCHA.  Sunkoka automatizuoti.  Pvz.:
 ```
 curl 'https://numeracija.rrt.lt/api/public/number/checknumber' \
   -H 'authority: numeracija.rrt.lt' \
