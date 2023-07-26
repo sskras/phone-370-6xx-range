@@ -410,7 +410,23 @@ $ fg %?-num-state
 . Skambutis atmestas be kvietimo signalo
 ```
 
-22. Išsaugome failą į Git:
+22. Išsaugome failą į Git, pvz. automatiškai redaktoriuje:
 ```
+commit ...
+Author: ...
+Date:   Wed Jul 26 20:48:15 2023 +0300
+
+    "phone-num-state.txt: Ordinary add."
+
+diff --git a/phone-num-state.txt b/phone-num-state.txt
+index 6945843..ba1c5ab 100644
+--- a/phone-num-state.txt
++++ b/phone-num-state.txt
+@@ -6,3 +6,5 @@
+ = Sujungimas negalimas, prašome patikrinti numerį / Numeris nenaudojamas
+ * Pasikartojantis kvietimas su papypsėjimu
+ . Skambutis atmestas be kvietimo signalo
++
++60500096 +*/
 ```
 </details>
