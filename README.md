@@ -321,7 +321,7 @@ index 7653408..c634d6f 100644
 }
 ```
 15. Papildome juo failą `numeracija.rrt.lt-responses.json`.
-16. Darome tai pvz. sugrįždami į pristabytą redaktorių VIM su jau šiuo atvertu failu:
+16. Darome tai pvz. sugrįždami į pristabytą redaktorių VIM su jau atvertu šiuo failu:
 ```
 $ fg %?.json
   ...
