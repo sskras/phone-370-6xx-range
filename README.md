@@ -271,8 +271,8 @@ $ tail generated-num-sort.txt
 60599696
 ```
 10. Imame po vieną numerį iš eilės, pvz. `60500096`
-11. Tikriname numerį `numeracija.rrt.lt` puslapyje (žr. senojo tikrinimo kelio punktus #1-4):
-12. Nuskaitome serviso atsakymą JSON formatu:
+13. Tikriname numerį `numeracija.rrt.lt` puslapyje (žr. senojo tikrinimo kelio punktus #1-4):
+14. Nuskaitome serviso atsakymą JSON formatu:
 ```
 {
     "id": 0,
@@ -290,5 +290,5 @@ $ tail generated-num-sort.txt
     "canTransfer": false
 }
 ```
-13. Papildome juo failą `numeracija.rrt.lt-responses.json`, pvz. [`c59013e`](https://github.com/sskras/phone-370-6xx-range/commit/c59013e)
+15. Papildome juo failą `numeracija.rrt.lt-responses.json`, pvz. [`c59013e`](https://github.com/sskras/phone-370-6xx-range/commit/c59013e)
 </details>
