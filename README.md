@@ -409,4 +409,8 @@ $ fg %?-num-state
 * Pasikartojantis kvietimas su papypsėjimu
 . Skambutis atmestas be kvietimo signalo
 ```
+
+22. Pvz.:
+```
+```
 </details>
