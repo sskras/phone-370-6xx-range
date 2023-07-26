@@ -271,4 +271,22 @@ $ tail generated-num-sort.txt
 60599696
 ```
 10. Imame po vieną numerį iš eilės, pvz. `60500096`
+11. Tikriname numerį `numeracija.rrt.lt` puslapyje:
+```
+{
+    "id": 0,
+    "numberFrom": 60500096,
+    "numberTo": 60500096,
+    "status": "Užimtas",
+    "ownerFullName": "Telia Lietuva, AB",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "121215434",
+    "range": "60500096 - 60500096",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
+```
 </details>
