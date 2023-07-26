@@ -437,7 +437,7 @@ kai RRT JSON atsakymas pateikia platesnį numerių ruožą.
 Tokiu atveju faile `generated-num-sort.txt` pažymime iš karto kelis naujus numerius.
 
 25. Prikaupiame pakankamai daug dominančio tiekėjo numerių, kurie panašūs į neužimtus.
-(Pvz. žinutė nepristatyta + „Prašome pasitikrinti numerį“)
+(žinutė nepristatyta + „Prašome pasitikrinti numerį“), pvz.:
 
 26. Kreipiamės į Back-ofisą su prašymu sudaryti naują abonentinę sutartį.
 
