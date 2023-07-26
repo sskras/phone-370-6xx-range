@@ -388,6 +388,5 @@ index d9667a4..0186b19 100644
 +60500196 - 60500196 UAB Tele2
 [debug 6e55231] phone-num-ranges.txt: Range update
  1 file changed, 1 insertion(+)
-
 ```
 </details>
