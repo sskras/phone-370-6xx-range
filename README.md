@@ -192,14 +192,7 @@ v  v
 5. Ją kopijuojame į kelis šablonus, kur sužymime du skaitmenys, kuriems leista skirtis nuo originalo, pvz.:
 ```
 $ cat numerio-generacija.txt
- _ Pastovioji dalis, priešdėlis / prefiksas
-|
-|   _ Kintanti dalis, noriu parinkti kuo artimesnę
-|  |  (kad skirtųsi tik du skaitmenys ar vienas)
-v  v
-===.....
-60504696
-
+  ...
 605046..
 60504.9.
 
