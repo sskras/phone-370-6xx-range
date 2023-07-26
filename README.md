@@ -436,5 +436,6 @@ index 6945843..ba1c5ab 100644
 kai RRT JSON atsakymas pateikia platesnį numerių ruožą.
 Tokiu atveju faile `generated-num-sort.txt` pažymime iš karto kelis naujus numerius.
 
-25. Prikaupiame pakankamai daug dominančio tiekėjo numerių, kurie panašūs į neužimtus (žinutė nepristatyta + „Prašome pasitikrinti numerį“).
+25. Prikaupiame pakankamai daug dominančio tiekėjo numerių, kurie panašūs į neužimtus.
+(Pvz. žinutė nepristatyta + „Prašome pasitikrinti numerį“)
 </details>
