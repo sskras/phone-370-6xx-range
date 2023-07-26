@@ -429,4 +429,8 @@ index 6945843..ba1c5ab 100644
 +
 +60500096 +*/
 ```
+
+23. Grįžtame kartoti iteracijos naujam numeriui, žingsnis 10 arba 18.
+
+24. Iteracija kartais apima ir kelis naujus numerius iš eilės, kai RRT JSON atsakymas pateikia platesnį numerių ruožą.
 </details>
