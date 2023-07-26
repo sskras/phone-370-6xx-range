@@ -176,8 +176,11 @@ $ make list | make filter-two
 
 <details open> <summary> <strong> Naujas numerių atrinkimo kelias </strong> <summary>
 1. Pasirenkame tel. nr., kuriam artimų kitų numerių ieškosime, pvz.: `60504696`.
+
 2. Pasirenkame, kiekos daugiausiai skaitmenų skirtumas priimtinas, pvz. dviejų.
+
 3. Fiksuojame, kurie numerio skaitmenys turi išlikti tokie patys, pvz. `605`.
+
 4. Pasižymime likusią numerio dalį, pvz. `04696`.
 ```
 $ cat numerio-generacija.txt
@@ -189,6 +192,7 @@ v  v
 ===.....
 60504696
 ```
+
 5. Ją kopijuojame į kelis šablonus, kur sužymime po du skaitmenis, kuriems leista skirtis nuo originalo, pvz.:
 ```
 $ cat numerio-generacija.txt
@@ -209,6 +213,7 @@ $ cat numerio-generacija.txt
 605.469.
 605.46.6
 ```
+
 6. Įsitikiname, kad ieškomų numerių-kandidatų generacija pagal sukurtus šablonus veikia, pvz.:
 ```
 $ make gen
@@ -231,16 +236,19 @@ $ make gen
 60504626
   ...
 ```
+
 7. Susumuojame sugeneruotus numerius:
 ```
 $ make gen | grep -c ^6
 1000
 ```
+
 8. Visus unikalius numerius iš sugeneruotųjų įrašome į failą, pvz. `generated-num-sort.txt`:
 ```
 $ make gen | make reset-sort > generated-num-sort.txt
 7.52KiB 0:00:00 [ 123KiB/s] [ <=>                                                                      ]
 ```
+
 9. Patikriname jųjų skaičių, pradžią ir pabaigą:
 ```
 $ wc -l generated-num-sort.txt
@@ -270,7 +278,9 @@ $ tail generated-num-sort.txt
 60598696
 60599696
 ```
+
 10. Imame po vieną numerį iš eilės, pvz. `60500096`
+
 11. Pažymime jį faile `generated-num-sort.txt` kaip tikrinamą, pvz. sugrįždami į pristabytą redaktorių VIM:
 ```diff
 $ fg %?-num-sort
@@ -281,6 +291,7 @@ $ fg %?-num-sort
  60500296
  60500396
 ```
+
 12. Pokytį įrašome į Git (pvz. tinkamai susikonfigūravus teksto redaktorių).
 Pvz. aš naudoju VIM ir prie jo Eventų pririšu savo automatinį Git-įrašymo skriptą `gite.sh`:
 ```
@@ -301,7 +312,9 @@ index 7653408..c634d6f 100644
  60500296
  60500396
 ```
+
 13. Tikriname šį numerį `numeracija.rrt.lt` puslapyje (žr. senojo tikrinimo kelio punktus #1-4):
+
 14. Nuskaitome serviso atsakymą JSON formatu:
 ```
 {
@@ -320,7 +333,9 @@ index 7653408..c634d6f 100644
     "canTransfer": false
 }
 ```
+
 15. Papildome juo failą `numeracija.rrt.lt-responses.json`.
+
 16. Darome tai pvz. sugrįždami į pristabytą redaktorių VIM su jau atvertu šiuo failu:
 ```
 $ fg %?.json
@@ -340,6 +355,7 @@ $ fg %?.json
     "canTransfer": false
 }
 ```
+
 17. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
 ```diff
 $ make all
@@ -353,6 +369,7 @@ index e69de29..d9667a4 100644
  1 file changed, 1 insertion(+)
 
 ```
+
 18. Visus šiuos veiksmus verta apjungi į vieną Bash kompozitą:
 ```
 $ fg %?-num-sort; fg %?.json; make all
