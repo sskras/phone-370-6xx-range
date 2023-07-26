@@ -179,6 +179,16 @@ $ make list | make filter-two
 2. Pasirenkame, kiekos daugiausiai skaitmenų skirtumas priimtinas, pvz. dviejų.
 3. Fiksuojame, kurie numerio skaitmenys turi išlikti tokie patys, pvz. `605`.
 4. Pasižymime likusią numerio dalį, pvz. `04696`.
+```
+$ cat numerio-generacija.txt
+ _ Pastovioji dalis, priešdėlis / prefiksas
+|
+|   _ Kintanti dalis, noriu parinkti kuo artimesnę
+|  |  (kad skirtųsi tik du skaitmenys ar vienas)
+v  v
+===.....
+60504696
+```
 5. Ją kopijuojame į kelis šablonus, kur sužymime du skaitmenys, kuriems leista skirtis nuo originalo, pvz.:
 ```
 $ cat numerio-generacija.txt
