@@ -340,5 +340,5 @@ $ fg %?.json
     "canTransfer": false
 }
 ```
-7. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
+17. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
 </details>
