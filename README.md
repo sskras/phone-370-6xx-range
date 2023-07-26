@@ -236,4 +236,5 @@ $ make gen
 $ make gen | grep -c ^6
 1000
 ```
+8. Visus unikalius numerius iš sugeneruotųjų įrašome į failą, pvz. `generated-num-sort.txt`:
 </details>
