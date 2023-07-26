@@ -28,3 +28,6 @@ gen:
 
 reset-sort:
 	@grep ^6 | sort -nu | pv
+
+suspects:
+	@grep -v '[- /!]$'
