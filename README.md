@@ -445,4 +445,5 @@ Tokiu atveju faile `generated-num-sort.txt` pažymime iš karto kelis naujus num
 
 28. Galimi niuansai. Pvz. jeigu Telijos prepaid-e (Ežyje) buvo atsidūręs (ir paskui sunaikintas) numeris iš Tele2 prepaid-o (Pildyk),
     tuomet Telija automatiškai nebeatlaisvina šio numerio naujai sutarčiai sudaryti / potencialiam Prepaid klientui.
+    Ką Telia daro su tais numeriais apskritai / ar juos ištraukia rankiniu būdu / tik retkarčiais / pagal kliento atskirus prašymus, pasakyti sunku.
 </details>
