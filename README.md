@@ -410,7 +410,7 @@ $ fg %?-num-state
 . Skambutis atmestas be kvietimo signalo
 ```
 
-22. Pvz.:
+22. Išsaugome failą į Git:
 ```
 ```
 </details>
