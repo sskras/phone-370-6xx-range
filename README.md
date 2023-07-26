@@ -443,6 +443,6 @@ Tokiu atveju faile `generated-num-sort.txt` pažymime iš karto kelis naujus num
 
 27. Prašome specialisto patikrinti numerių užimtumą.
 
-28. Galimi niuansai. Pvz. jeigu Telijos prepaid-e (Ežyje) buvo atsidūręs numeris iš Tele2 prepaid-o (Pildyk),
+28. Galimi niuansai. Pvz. jeigu Telijos prepaid-e (Ežyje) buvo atsidūręs (ir paskui sunaikintas) numeris iš Tele2 prepaid-o (Pildyk),
     tuomet Telija automatiškai nebeatlaisvina šio numerio naujai sutarčiai sudaryti / potencialiam Prepaid klientui.
 </details>
