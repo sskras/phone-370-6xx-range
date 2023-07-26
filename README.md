@@ -272,6 +272,7 @@ $ tail generated-num-sort.txt
 ```
 10. Imame po vieną numerį iš eilės, pvz. `60500096`
 11. Tikriname numerį `numeracija.rrt.lt` puslapyje (žr. senojo tikrinimo kelio punktus #1-4):
+12. Nuskaitome serviso atsakymą JSON formatu:
 ```
 {
     "id": 0,
