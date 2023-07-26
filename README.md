@@ -173,3 +173,6 @@ $ make list | make filter-two
 60506396 UAB Tele2
 ```
 </details>
+
+<details open> <summary> <strong> Naujas numerių atrinkimo kelias </strong> <summary>
+</details>
