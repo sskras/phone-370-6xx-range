@@ -237,4 +237,13 @@ $ make gen | grep -c ^6
 1000
 ```
 8. Visus unikalius numerius iš sugeneruotųjų įrašome į failą, pvz. `generated-num-sort.txt`:
+```
+$ make gen | make reset-sort > generated-num-sort.txt
+7.52KiB 0:00:00 [ 123KiB/s] [ <=>                                                                      ]
+```
+9. Patikriname jųjų skaičių:
+```
+$ wc -l generated-num-sort.txt
+856 generated-num-sort.txt
+```
 </details>
