@@ -241,9 +241,33 @@ $ make gen | grep -c ^6
 $ make gen | make reset-sort > generated-num-sort.txt
 7.52KiB 0:00:00 [ 123KiB/s] [ <=>                                                                      ]
 ```
-9. Patikriname jųjų skaičių:
+9. Patikriname jųjų skaičių, pradžią ir pabaigą:
 ```
 $ wc -l generated-num-sort.txt
 856 generated-num-sort.txt
+
+$ head generated-num-sort.txt
+60500096
+60500196
+60500296
+60500396
+60500496
+60500596
+60500606
+60500616
+60500626
+60500636
+
+$ tail generated-num-sort.txt
+60594698
+60594699
+60594796
+60594896
+60594996
+60595696
+60596696
+60597696
+60598696
+60599696
 ```
 </details>
