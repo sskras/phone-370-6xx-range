@@ -354,4 +354,24 @@ index e69de29..d9667a4 100644
 
 
 ```
+18. Visus šiuos veiksmus verta apjungi į vieną Bash kompozitą:
+```
+$ fg %?-num-sort; fg %?.json; make all
+vim generated-num-sort.txt
+
+[9]+  Stopped                 vim generated-num-sort.txt
+vim numeracija.rrt.lt-responses.json
+
+[8]+  Stopped                 vim numeracija.rrt.lt-responses.json
+diff --git a/phone-num-ranges.txt b/phone-num-ranges.txt
+index d9667a4..0186b19 100644
+--- a/phone-num-ranges.txt
++++ b/phone-num-ranges.txt
+@@ -1 +1,2 @@
+ 60500096 - 60500096 Telia Lietuva, AB
++60500196 - 60500196 UAB Tele2
+[debug 6e55231] phone-num-ranges.txt: Range update
+ 1 file changed, 1 insertion(+)
+
+```
 </details>
