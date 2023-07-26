@@ -209,4 +209,5 @@ $ cat numerio-generacija.txt
 605.469.
 605.46.6
 ```
+6. Įsitikiname, kad ieškomų numerių-kandidatų generacija pagal sukurtus šablonus veikia, pvz.:
 </details>
