@@ -1,3 +1,4 @@
+<details> <summary> <strong> Senas numerių atrinkimo kelias </strong> <summary>
 1. Atsiverčiame [RRT Numerio paiešką](https://numeracija.rrt.lt/savitarna/user/#/number)
 2. Suvedame numerį
 3. Spaudžiame „Ieškoti numerio“
@@ -171,3 +172,4 @@ $ make list | make filter-two
 60504996 UAB Tele2
 60506396 UAB Tele2
 ```
+</details>
