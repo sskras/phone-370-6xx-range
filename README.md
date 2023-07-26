@@ -390,4 +390,10 @@ index d9667a4..0186b19 100644
 ```
 
 19. Pastebime numerį, priklausantį mus dominančiam tiekėjui (pvz. Telijai).
+
+20. Patikriname numerio būseną, pvz.:
+
+- išsiunčiame tuščią žinutę;
+- paskambiname tuo numeriu;
+- pasiteiraujame apie jo registracijos būseną salone ar Back-ofise.
 </details>
