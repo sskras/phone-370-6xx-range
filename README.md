@@ -270,4 +270,5 @@ $ tail generated-num-sort.txt
 60598696
 60599696
 ```
+10. Imame po vieną numerį iš eilės, pvz. `60500096`
 </details>
