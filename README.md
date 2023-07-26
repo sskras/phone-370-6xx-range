@@ -324,7 +324,6 @@ index 7653408..c634d6f 100644
 16. Darome tai pvz. sugrįždami į pristabytą redaktorių VIM su jau atvertu šiuo failu:
 ```
 $ fg %?.json
-  ...
 {
     "id": 0,
     "numberFrom": 60500096,
