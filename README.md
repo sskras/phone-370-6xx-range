@@ -369,7 +369,7 @@ index e69de29..d9667a4 100644
  1 file changed, 1 insertion(+)
 ```
 
-18. Visus šiuos veiksmus verta apjungi į vieną Bash kompozitą:
+18. Visus šiuos veiksmus verta apjungti į vieną Bash kompozitą:
 ```
 $ fg %?-num-sort; fg %?.json; make ranges
 vim generated-num-sort.txt
