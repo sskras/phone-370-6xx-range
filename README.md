@@ -179,4 +179,5 @@ $ make list | make filter-two
 2. Pasirenkame, kiekos daugiausiai skaitmenų skirtumas priimtinas, pvz. dviejų.
 3. Fiksuojame, kurie numerio skaitmenys turi išlikti tokie patys, pvz. `605`.
 4. Pasižymime likusią numerio dalį, pvz. `04696`.
+5. Ją kopijuojame į kelis šablonus, kur sužymime du skaitmenys, kuriems leista skirtis nuo originalo, pvz.:
 </details>
