@@ -321,4 +321,5 @@ index 7653408..c634d6f 100644
 }
 ```
 15. Papildome juo failą `numeracija.rrt.lt-responses.json`, pvz. [`c59013e`](https://github.com/sskras/phone-370-6xx-range/commit/c59013e)
+7. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
 </details>
