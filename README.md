@@ -337,23 +337,25 @@ index 7653408..c634d6f 100644
 15. Papildome juo failą `numeracija.rrt.lt-responses.json`.
 
 16. Darome tai pvz. sugrįždami į pristabytą redaktorių VIM su jau atvertu šiuo failu:
-```
+```diff
 $ fg %?.json
-{
-    "id": 0,
-    "numberFrom": 60500096,
-    "numberTo": 60500096,
-    "status": "Užimtas",
-    "ownerFullName": "Telia Lietuva, AB",
-    "numberCount": 0,
-    "numberPlanId": 0,
-    "personType": 0,
-    "personalCode": "121215434",
-    "range": "60500096 - 60500096",
-    "canAssign": false,
-    "canRevoke": false,
-    "canTransfer": false
-}
+  ...
++,
++{
++    "id": 0,
++    "numberFrom": 60500196,
++    "numberTo": 60500196,
++    "status": "Užimtas",
++    "ownerFullName": "UAB \"Tele2\"",
++    "numberCount": 0,
++    "numberPlanId": 0,
++    "personType": 0,
++    "personalCode": "111471645",
++    "range": "60500196 - 60500196",
++    "canAssign": false,
++    "canRevoke": false,
++    "canTransfer": false
++}
 ```
 
 17. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
