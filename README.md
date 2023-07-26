@@ -320,6 +320,26 @@ index 7653408..c634d6f 100644
     "canTransfer": false
 }
 ```
-15. Papildome juo failą `numeracija.rrt.lt-responses.json`, pvz. [`c59013e`](https://github.com/sskras/phone-370-6xx-range/commit/c59013e)
+15. Papildome juo failą `numeracija.rrt.lt-responses.json`.
+16. Darome tai pvz. sugrįždami į pristabytą redaktorių VIM su jau šiuo atvertu failu:
+```
+$ fg %?.json
+  ...
+{
+    "id": 0,
+    "numberFrom": 60500096,
+    "numberTo": 60500096,
+    "status": "Užimtas",
+    "ownerFullName": "Telia Lietuva, AB",
+    "numberCount": 0,
+    "numberPlanId": 0,
+    "personType": 0,
+    "personalCode": "121215434",
+    "range": "60500096 - 60500096",
+    "canAssign": false,
+    "canRevoke": false,
+    "canTransfer": false
+}
+```
 7. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
 </details>
