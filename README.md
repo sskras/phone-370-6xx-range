@@ -45,7 +45,7 @@ curl 'https://numeracija.rrt.lt/api/public/number/checknumber' \
 6. Įterpiame jį į `numeracija.rrt.lt-responses.json`, pvz. [`c59013e`](https://github.com/sskras/phone-370-6xx-range/commit/c59013e)
 7. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
 ```
-$ make all
+$ make ranges
 diff --git a/phone-num-ranges.txt b/phone-num-ranges.txt
 index bf79cb2..df59ab1 100644
 --- a/phone-num-ranges.txt
@@ -358,7 +358,7 @@ $ fg %?.json
 
 17. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
 ```diff
-$ make all
+$ make ranges
 diff --git a/phone-num-ranges.txt b/phone-num-ranges.txt
 index e69de29..d9667a4 100644
 --- a/phone-num-ranges.txt
@@ -371,7 +371,7 @@ index e69de29..d9667a4 100644
 
 18. Visus šiuos veiksmus verta apjungi į vieną Bash kompozitą:
 ```
-$ fg %?-num-sort; fg %?.json; make all
+$ fg %?-num-sort; fg %?.json; make ranges
 vim generated-num-sort.txt
 
 [9]+  Stopped                 vim generated-num-sort.txt
