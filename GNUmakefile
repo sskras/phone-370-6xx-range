@@ -9,11 +9,11 @@ ranges:
 	@git diff --exit-code phone-num-ranges.txt || \
 	 git commit -m 'phone-num-ranges.txt: Range update' phone-num-ranges.txt
 
-list: all
+list: ranges
 	@echo
 	@cat phone-num-ranges.txt | ./phone-num-linearize.awk
 
-state-%: all
+state-%: ranges
 	@echo
 	@awk -f phone-num-merge-state.awk PROVIDER=$*
 
