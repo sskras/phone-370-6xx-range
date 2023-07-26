@@ -210,4 +210,16 @@ $ cat numerio-generacija.txt
 605.46.6
 ```
 6. Įsitikiname, kad ieškomų numerių-kandidatų generacija pagal sukurtus šablonus veikia, pvz.:
+```
+$ make gen
+
+[6050.6.6]
+
+60500606
+60500616
+60500626
+60500636
+  ...
+
+```
 </details>
