@@ -352,7 +352,6 @@ index e69de29..d9667a4 100644
 [debug d85687f] phone-num-ranges.txt: Range update
  1 file changed, 1 insertion(+)
 
-
 ```
 18. Visus šiuos veiksmus verta apjungi į vieną Bash kompozitą:
 ```
