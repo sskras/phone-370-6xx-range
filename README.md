@@ -281,6 +281,26 @@ $ fg %?-num-sort
  60500296
  60500396
 ```
+12. Pokytį įrašome į Git (pvz. tinkamai susikonfigūravus teksto redaktorių).
+Pvz. aš naudoju VIM ir prie jo Eventų pririšu savo automatinį Git-įrašymo skriptą `gite.sh`:
+```
+commit ...
+Author: ...
+Date:   Wed Jul 26 20:06:25 2023 +0300
+
+    "generated-num-sort.txt: Ordinary add."
+
+diff --git a/generated-num-sort.txt b/generated-num-sort.txt
+index 7653408..c634d6f 100644
+--- a/generated-num-sort.txt
++++ b/generated-num-sort.txt
+@@ -1,4 +1,4 @@
+-60500096
++60500096 +
+ 60500196
+ 60500296
+ 60500396
+```
 13. Tikriname šį numerį `numeracija.rrt.lt` puslapyje (žr. senojo tikrinimo kelio punktus #1-4):
 14. Nuskaitome serviso atsakymą JSON formatu:
 ```
