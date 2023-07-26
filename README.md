@@ -189,7 +189,7 @@ v  v
 ===.....
 60504696
 ```
-5. Ją kopijuojame į kelis šablonus, kur sužymime du skaitmenys, kuriems leista skirtis nuo originalo, pvz.:
+5. Ją kopijuojame į kelis šablonus, kur sužymime po du skaitmenis, kuriems leista skirtis nuo originalo, pvz.:
 ```
 $ cat numerio-generacija.txt
   ...
