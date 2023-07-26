@@ -1,7 +1,7 @@
 .PHONY: all list filter
 
 all:
-	fg %?-num-sort; fg %?.json; make linear
+	@echo TODO
 
 linear:
 	@cat numeracija.rrt.lt-responses.json | ./extract-phone-num-ranges.awk > phone-num-ranges.txt
