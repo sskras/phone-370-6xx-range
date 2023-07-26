@@ -388,4 +388,6 @@ index d9667a4..0186b19 100644
 [debug 6e55231] phone-num-ranges.txt: Range update
  1 file changed, 1 insertion(+)
 ```
+
+19. Pastebime numerį, priklausantį mus dominančiam tiekėjui (pvz. Telijai).
 </details>
