@@ -399,5 +399,14 @@ index d9667a4..0186b19 100644
 
 21. Einame pažymėti šią būseną faile `phone-num-state.txt`:
 ```
+$ fg %?-num-state
+! Pristatyta
++ Nepristatyta
+~ Siunčiama
+/ Numeris užregistruotas
+- Šiuo metu abonentas nepasiekiamas / su vartotoju nėra galimybės susisiekti
+= Sujungimas negalimas, prašome patikrinti numerį / Numeris nenaudojamas
+* Pasikartojantis kvietimas su papypsėjimu
+. Skambutis atmestas be kvietimo signalo
 ```
 </details>
