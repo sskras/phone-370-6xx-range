@@ -434,4 +434,5 @@ index 6945843..ba1c5ab 100644
 
 24. Iteracija kartais apima ir kelis naujus numerius iš eilės,
 kai RRT JSON atsakymas pateikia platesnį numerių ruožą.
+Tokiu atveju faile `generated-num-sort.txt` pažymime iš karto kelis naujus numerius.
 </details>
