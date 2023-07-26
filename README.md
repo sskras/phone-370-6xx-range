@@ -341,4 +341,17 @@ $ fg %?.json
 }
 ```
 17. Ištraukiame numerių rėžius į failą `phone-num-ranges.txt`:
+```
+$ make all
+diff --git a/phone-num-ranges.txt b/phone-num-ranges.txt
+index e69de29..d9667a4 100644
+--- a/phone-num-ranges.txt
++++ b/phone-num-ranges.txt
+@@ -0,0 +1 @@
++60500096 - 60500096 Telia Lietuva, AB
+[debug d85687f] phone-num-ranges.txt: Range update
+ 1 file changed, 1 insertion(+)
+
+
+```
 </details>
