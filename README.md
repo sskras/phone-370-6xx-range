@@ -193,6 +193,7 @@ v  v
 ```
 $ cat numerio-generacija.txt
   ...
+
 605046..
 60504.9.
 
