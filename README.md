@@ -290,4 +290,5 @@ $ tail generated-num-sort.txt
     "canTransfer": false
 }
 ```
+13. Papildome juo failą `numeracija.rrt.lt-responses.json`, pvz. [`c59013e`](https://github.com/sskras/phone-370-6xx-range/commit/c59013e)
 </details>
