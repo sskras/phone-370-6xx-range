@@ -438,6 +438,15 @@ Tokiu atveju faile `generated-num-sort.txt` pažymime iš karto kelis naujus num
 
 25. Prikaupiame pakankamai daug dominančio tiekėjo numerių, kurie panašūs į neužimtus.
 (žinutė nepristatyta + „Prašome pasitikrinti numerį“), pvz.:
+```
+$ make list | make state-Telia | make suspects
+
+60501796 ~.
+60504743 +=
+60506696 +=
+60507626 +=
+60507896 +=
+```
 
 26. Kreipiamės į Back-ofisą su prašymu sudaryti naują abonentinę sutartį.
 
