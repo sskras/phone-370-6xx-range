@@ -176,6 +176,7 @@ $ make list | make filter-two
 </details>
 
 <details open> <summary> <strong> Naujas numerių atrinkimo kelias </strong> </summary>
+
 1. Pasirenkame tel. nr., kuriam artimų kitų numerių ieškosime, pvz.: `60504696`.
 
 2. Pasirenkame, kiekos daugiausiai skaitmenų skirtumas priimtinas, pvz. dviejų.
