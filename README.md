@@ -1,4 +1,5 @@
-<details> <summary> <strong> Senas numerių atrinkimo kelias </strong> <summary>
+<details> <summary> <strong> Senas numerių atrinkimo kelias </strong> </summary>
+
 1. Atsiverčiame [RRT Numerio paiešką](https://numeracija.rrt.lt/savitarna/user/#/number)
 2. Suvedame numerį
 3. Spaudžiame „Ieškoti numerio“
@@ -174,7 +175,7 @@ $ make list | make filter-two
 ```
 </details>
 
-<details open> <summary> <strong> Naujas numerių atrinkimo kelias </strong> <summary>
+<details open> <summary> <strong> Naujas numerių atrinkimo kelias </strong> </summary>
 1. Pasirenkame tel. nr., kuriam artimų kitų numerių ieškosime, pvz.: `60504696`.
 
 2. Pasirenkame, kiekos daugiausiai skaitmenų skirtumas priimtinas, pvz. dviejų.
