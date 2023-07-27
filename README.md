@@ -440,8 +440,8 @@ index 6945843..ba1c5ab 100644
 kai RRT JSON atsakymas pateikia platesnį numerių ruožą.
 Tokiu atveju faile `generated-num-sort.txt` pažymime iš karto kelis naujus numerius.
 
-25. Prikaupiame pakankamai daug dominančio tiekėjo numerių, kurie panašūs į neužimtus.
-(žinutė nepristatyta + „Prašome pasitikrinti numerį“), pvz.:
+25. Prikaupiame pakankamai daug dominančio tiekėjo numerių, kurie panašūs į neužimtus
+(žinutė nepristatyta + „Prašome pasitikrinti numerį“). Pvz.:
 ```
 $ make list | make state-Telia | make suspects
 
@@ -456,7 +456,7 @@ $ make list | make state-Telia | make suspects
 
 27. Prašome specialisto patikrinti numerių užimtumą.
 
-28. Galimi niuansai. Pvz. jeigu Telijos prepaid-e (Ežyje) buvo atsidūręs (ir paskui sunaikintas) numeris iš Tele2 prepaid-o (Pildyk),
-    tuomet Telija automatiškai nebeatlaisvina šio numerio naujai sutarčiai sudaryti / potencialiam Prepaid klientui.
-    Ką Telia daro su tais numeriais apskritai / ar juos ištraukia rankiniu būdu / tik retkarčiais / pagal kliento atskirus prašymus, pasakyti sunku.
+28. Galimi niuansai. Pvz. jeigu Telijos prepaid-e (Ežyje) buvo atsidūręs (ir paskui sunaikintas) numeris iš Bitės tinklo,
+    tuomet Telija jo automatiškai nebeatlaisvina  naujai sutarčiai sudaryti / potencialiam Prepaid klientui.
+    Ką Telia daro su tokiais numeriais apskritai (ar juos ištraukia rankiniu būdu / tik retkarčiais / pagal kliento atskirus prašymus / numarina), pasakyti sunku.
 </details>
